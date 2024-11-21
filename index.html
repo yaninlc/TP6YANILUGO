@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a nuestra página web</h1>
+        <p>Esta página contiene tres secciones que te permitirán interactuar con nosotros:</p>
+        <ul>
+            <li><b>Página 2:</b> Formulario de contacto</li>
+            <li><b>Página 3:</b> Formulario de mensajes</li>
+        </ul>
+        
+        <div id="welcome-message"></div>
+        
+        <label for="name">Ingresa tu nombre: </label>
+        <input type="text" id="name" placeholder="Tu nombre">
+        <button onclick="welcomeUser()">Enviar</button>
+
+        <div class="buttons-container">
+            <button class="btn" onclick="location.href='pagina2.html'">Ir a Página 2</button>
+            <button class="btn" onclick="location.href='pagina3.html'">Ir a Página 3</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
